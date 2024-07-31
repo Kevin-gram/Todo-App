@@ -4,7 +4,7 @@ export default function IputButton() {
       <input
         type="text"
         placeholder="Add new todo!"
-        className="border-2 shadow-lg shadow-gray-700 text-center w-1/2 h-24 mt-12 rounded-2xl"
+        className="border-2 shadow-lg shadow-gray-700 text-center w-1/2 h-24 mt-12 rounded-2xl text-2xl"
       />
     </div>
   );

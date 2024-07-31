@@ -1,4 +1,5 @@
 import Input from "./components/InputButton";
+import TodoItem from "./components/todoItem";
 export default function App() {
   return (
     <div>
@@ -6,6 +7,7 @@ export default function App() {
         todos
       </h1>
       <Input />
+      <TodoItem />
     </div>
   );
 }
