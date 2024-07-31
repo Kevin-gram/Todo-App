@@ -1,10 +1,11 @@
 export default function IputButton() {
   return (
-    <input
-      type="text"
-      placeholder="Add new todo!"
-      className="border-2 border-black  text-center"
-    />
-    //   Enter you to do here!
+    <div className="flex justify-center">
+      <input
+        type="text"
+        placeholder="Add new todo!"
+        className="border-2 shadow-lg shadow-gray-700 text-center w-1/2 h-24 mt-12 rounded-2xl"
+      />
+    </div>
   );
 }
